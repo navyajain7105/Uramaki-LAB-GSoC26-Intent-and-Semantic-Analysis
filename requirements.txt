@@ -1,0 +1,9 @@
+transformers
+torch
+bertopic
+shap
+pandas
+fastapi
+uvicorn
+pydantic
+streamlit
