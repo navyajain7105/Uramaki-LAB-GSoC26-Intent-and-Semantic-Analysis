@@ -8,3 +8,5 @@ torch
 bertopic
 pandas
 shap
+matplotlib
+ipython

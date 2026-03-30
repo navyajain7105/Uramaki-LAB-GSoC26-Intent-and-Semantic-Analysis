@@ -66,6 +66,5 @@ if __name__ == "__main__":
     shap_vals = generate_shap_explanation(test_quote, target, hypothesis_type="intent")
     
     # If running in a Jupyter/Colab notebook, this next line renders the visual:
-    # shap.plots.text(shap_vals)
+    print(shap.plots.text(shap_vals))
     print("\nSHAP values calculated successfully!")
-    print("To see the visual output, run this in a Jupyter/Colab notebook and call `shap.plots.text(shap_vals)`")
